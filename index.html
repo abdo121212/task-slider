@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>slider</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <!-- Desktop Navigation -->
+        <div class="desktop-nav">
+          <div class="nav-right">
+            <img src="assits/logo-I-bonai 1.png" alt="Logo" class="logo" />
+            <ul class="nav-links">
+              <li><a href="#" class="active">الرئيسية</a></li>
+              <li><a href="#">المنتجات</a></li>
+              <li><a href="#">اتمام الطلب</a></li>
+              <li><a href="#">من نحن</a></li>
+            </ul>
+          </div>
+          <div class="nav-left">
+            <div class="nav-icons">
+              <button class="icon-btn">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="icon-btn"><i class="fas fa-heart"></i></button>
+              <button class="icon-btn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <span class="separator"></span>
+            <div class="nav-buttons">
+              <button class="btn-site">
+                <span>موقع آي بني</span>
+                <i class="fas fa-globe"></i>
+              </button>
+              <button class="btn-login">
+                <span>تسجيل الدخول</span>
+                <i class="fas fa-user"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+          <button class="icon-btn"><i class="fas fa-bars"></i></button>
+          <img src="assits/logo-I-bonai 1.png" alt="Logo" class="logo" />
+          <button class="icon-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </nav>
+    <div class="slider">
+     
+
+      <!-- Left Side -->
+      <div class="side left">
+        <div class="book-card " data-img="assits/2 1.png">
+          <img src="assits/2 1.png" alt="book" />
+
+          <div class="book-info">
+            <h3>قلوب ملونة</h3>
+            <p>
+              استمتع بتلوين دفتر “يوميات خالد” حيث يحتوي على أعمال يقوم بها خالد
+              يومياً
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+        </div>
+
+        <div class="book-card" data-img="assits/22 1.png">
+          <img src="assits/22 1.png" alt="book" />
+
+          <div class="book-info">
+            <h3>صندوق الحيوانات</h3>
+            <p>
+              في كل كتاب من سلسلة «صناديق فيزو» يحمل «فيزو» صندوقًا مختلفًا تخرج منه مفاجآت مدهشة،
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+        </div>
+
+        <div class="book-card" data-img="assits/244 1.png">
+          <img src="assits/244 1.png" alt="book" />
+
+          <div class="book-info">
+            <h3>كل شيء عن المشاعر</h3>
+            <p>
+              يا تُرى كيف تشعر هذا الصباح؟ هذه الرحلة الاستكشافية في عالم المشاعر المتنوعة
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+        </div>
+
+        <div class="book-card" data-img="assits/Group 1123 (1).png">
+          <img src="assits/Group 1123 (1).png" alt="book" />
+
+          <div class="book-info">
+            <h3>تفاحة - تفاحتان - ثلاث تفاحات</h3>
+            <p>
+              تم تصميم هذا الكتاب ليكون ملعبا واسعا يقضي فيه الطفل ووالديه أوقات ممتعة،
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center Content -->
+      <div class="center">
+        <img src="assits/2 1.png" alt="book" class="center-book" id="displayed-image" />
+        <img src="assits/Frame 525.png" alt="group" class="group-image" />
+
+        <div class="buttons">
+          <div class="add-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>اضف للسلة</span>
+          </div>
+          <div class="read-more">
+            <i class="fa-solid fa-location-arrow"></i>
+            <p>قراءة المزيد</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="side right">
+        <div class="book-card active" data-img="assits/Group 1123 (2).png">
+          <div class="book-info">
+            <h3>فيزو المحترم</h3>
+            <p>
+              فيزو يرى أن بابا محترم جدًا لأنه يلبس بدلة وكرافاته فقرر أن يصبح محترم ولبس ملابس بابا.
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+          <img src="assits/Group 1123 (2).png" alt="book" />
+        </div>
+
+        <div class="book-card" data-img="assits/Group 1123 (3).png">
+          <div class="book-info">
+            <h3> موسوعة للصغار جدا</h3>
+            <p>
+              - ألعاب متنوعة للطفل ليستمتع بمتابعة الموضوع.
+              - أسئلة لتنمية التعليم التفاعلي للطفل.
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+          <img src="assits/Group 1123 (3).png" alt="book" />
+        </div>
+
+        <div class="book-card" data-img="assits/Group 1123 (4).png">
+          <div class="book-info">
+            <h3>تعدد أشكال الحروف</h3>
+            <p>
+              سلسلة منهجية مبنية على أسس علمية، فبالإضافة إلى تدريب الطفل على المحاكاة
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+          <img src="assits/Group 1123 (4).png" alt="book" />
+        </div>
+
+        <div class="book-card" data-img="assits/Group 1123.png">
+          <div class="book-info">
+            <h3>صندوق الأرقام</h3>
+            <p>
+              في كل كتاب من سلسلة «صناديق فيزو» يحمل «فيزو» صندوقًا مختلفًا تخرج منه مفاجآت مدهشة
+            </p>
+            <h5>50.00 ر.س</h5>
+          </div>
+          <img src="assits/Group 1123.png" alt="book" />
+        </div>
+      </div>
+    </div>
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <!-- Logo and Social Media Section -->
+          <div class="footer-section">
+            <img
+              src="assits/logo-I-bonai 1.png"
+              alt="logo"
+              width="100"
+              class="logo"
+            />
+            <p>نهدي جميع أعمالنا للطفل المسلم</p>
+            <p>، لإثراء ثقافته الدينية و اللغوية و</p>
+            <p>. سائر المعلومات العامة</p>
+            <div class="social-icons">
+              <i class="icon fab fa-linkedin"></i>
+              <i class="icon fab fa-facebook"></i>
+              <i class="icon fab fa-instagram"></i>
+            </div>
+          </div>
+          <!-- Contact Section -->
+
+          <!-- Links Section -->
+          <div class="footer-section">
+            <h3>روابط تهمك</h3>
+            <h4>الرئيسية</h4>
+            <h4>المنتجات</h4>
+            <h4>اتمام الطلب</h4>
+            <h4>من نحن</h4>
+          </div>
+
+          <!-- Services Section -->
+          <div class="footer-section">
+            <h3>الخدمات</h3>
+            <h4>أجهزة عناية شخصية</h4>
+            <h4>الجمال</h4>
+            <h4>عناية شخصية</h4>
+            <h4>عروض الصحه الجمال</h4>
+          </div>
+
+          <div class="footer-section">
+            <h3>تواصل معنا</h3>
+
+            <div class="flex">
+              <i class="icon fas fa-map-marker-alt"></i>
+
+              <div class="flex-col">
+                <h5>55,شارع الحزيفي ,الدمام</h5>
+                <h5>2556 السعودية</h5>
+              </div>
+            </div>
+            <div class="flex">
+              <i class="icon fas fa-phone"></i>
+
+              <h5>+0200221544865</h5>
+            </div>
+            <div class="flex">
+              <i class="icon fas fa-envelope"></i>
+
+              <h5>TesTmm@gmail.com</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        Copyright © 2023 Shahbandr. All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
